@@ -10,7 +10,7 @@
       "instrumentengruppe": "blechbläser",
       "aktiv": true,
       "ist_vorstand": true,
-      "vorstand_position": "1_vorsitzender",
+      "vorstand_position": "erster_vorsitzender",
       "reihenfolge": 1,
       "email": "alexander.uhrig@dorfkapelle-lauerbach.de",
       "besonderheiten": "Gründungsmitglied, langjährige Vereinsführung"
@@ -25,7 +25,7 @@
       "instrumentengruppe": "blechbläser",
       "aktiv": true,
       "ist_vorstand": true,
-      "vorstand_position": "2_vorsitzender",
+      "vorstand_position": "zweiter_vorsitzender",
       "reihenfolge": 2,
       "email": "joachim.uhrig@dorfkapelle-lauerbach.de"
     },

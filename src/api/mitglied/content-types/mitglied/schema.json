@@ -90,8 +90,8 @@
     "vorstand_position": {
       "type": "enumeration",
       "enum": [
-        "1_vorsitzender",
-        "2_vorsitzender", 
+        "erster_vorsitzender",
+        "zweiter_vorsitzender", 
         "dirigent",
         "kassenwart",
         "schriftfuehrer",

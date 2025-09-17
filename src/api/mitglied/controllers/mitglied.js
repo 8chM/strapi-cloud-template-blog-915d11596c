@@ -29,8 +29,8 @@ module.exports = createCoreController('api::mitglied.mitglied', ({ strapi }) => 
     ).sort((a, b) => {
       // Sortiere nach Vorstand-Position
       const positions = {
-        '1_vorsitzender': 1,
-        '2_vorsitzender': 2,
+        'erster_vorsitzender': 1,
+        'zweiter_vorsitzender': 2,
         'dirigent': 3,
         'kassenwart': 4,
         'schriftfuehrer': 5,
