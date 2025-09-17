@@ -1,0 +1,47 @@
+{
+  "collectionName": "components_shared_buttons",
+  "info": {
+    "displayName": "Button",
+    "description": "Wiederverwendbare Button-Komponente"
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "string",
+      "required": true,
+      "maxLength": 50
+    },
+    "link": {
+      "type": "string",
+      "required": true
+    },
+    "stil": {
+      "type": "enumeration",
+      "enum": [
+        "primary",
+        "secondary",
+        "outline",
+        "text"
+      ],
+      "default": "primary"
+    },
+    "groesse": {
+      "type": "enumeration",
+      "enum": [
+        "small",
+        "medium",
+        "large"
+      ],
+      "default": "medium"
+    },
+    "icon": {
+      "type": "string",
+      "maxLength": 50
+    },
+    "neues_fenster": {
+      "type": "boolean",
+      "default": false
+    }
+  }
+}
+

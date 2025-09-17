@@ -1,0 +1,48 @@
+{
+  "collectionName": "components_shared_hero_sections",
+  "info": {
+    "displayName": "Hero Section",
+    "description": "Hero-Bereich für Seiten"
+  },
+  "options": {},
+  "attributes": {
+    "titel": {
+      "type": "string",
+      "required": true,
+      "maxLength": 100
+    },
+    "untertitel": {
+      "type": "string",
+      "maxLength": 200
+    },
+    "text": {
+      "type": "text"
+    },
+    "hintergrundbild": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "cta_button": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.button"
+    },
+    "overlay_farbe": {
+      "type": "string",
+      "default": "rgba(0,0,0,0.4)"
+    },
+    "text_farbe": {
+      "type": "enumeration",
+      "enum": [
+        "weiss",
+        "schwarz",
+        "gruen"
+      ],
+      "default": "weiss"
+    }
+  }
+}
+

@@ -1,0 +1,143 @@
+{
+  "kind": "singleType",
+  "collectionName": "vereinsinfo",
+  "info": {
+    "singularName": "vereinsinfo",
+    "pluralName": "vereinsinfos",
+    "displayName": "Vereinsinfo",
+    "description": "Grundlegende Informationen über die Dorfkapelle Lauerbach"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "vereinsname": {
+      "type": "string",
+      "required": true,
+      "default": "Dorfkapelle Lauerbach e.V."
+    },
+    "gruendungsjahr": {
+      "type": "integer",
+      "required": true,
+      "default": 1965
+    },
+    "motto": {
+      "type": "string",
+      "default": "Blasmusik mit Herz aus dem Odenwald"
+    },
+    "beschreibung": {
+      "type": "richtext"
+    },
+    "adresse": {
+      "type": "text",
+      "required": true
+    },
+    "plz": {
+      "type": "string",
+      "maxLength": 5,
+      "default": "64711"
+    },
+    "ort": {
+      "type": "string",
+      "maxLength": 100,
+      "default": "Erbach"
+    },
+    "stadtteil": {
+      "type": "string",
+      "maxLength": 100,
+      "default": "Lauerbach"
+    },
+    "telefon": {
+      "type": "string",
+      "required": true
+    },
+    "email": {
+      "type": "email",
+      "required": true
+    },
+    "website": {
+      "type": "string"
+    },
+    "facebook_url": {
+      "type": "string"
+    },
+    "youtube_url": {
+      "type": "string"
+    },
+    "instagram_url": {
+      "type": "string"
+    },
+    "vereinslogo": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "gruppenfoto": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "anzahl_mitglieder": {
+      "type": "integer",
+      "default": 30
+    },
+    "probenzeiten": {
+      "type": "richtext"
+    },
+    "probenort": {
+      "type": "string",
+      "maxLength": 200
+    },
+    "vereinsheim": {
+      "type": "text"
+    },
+    "bankverbindung": {
+      "type": "richtext"
+    },
+    "vereinsregister": {
+      "type": "string",
+      "maxLength": 100
+    },
+    "steuer_nummer": {
+      "type": "string",
+      "maxLength": 100
+    },
+    "gemeinnuetzig": {
+      "type": "boolean",
+      "default": true
+    },
+    "mitgliedsbeitrag": {
+      "type": "richtext"
+    },
+    "aufnahmegebuehr": {
+      "type": "decimal",
+      "min": 0
+    },
+    "jahresbeitrag_erwachsene": {
+      "type": "decimal",
+      "min": 0
+    },
+    "jahresbeitrag_jugend": {
+      "type": "decimal",
+      "min": 0
+    },
+    "geschichte": {
+      "type": "richtext"
+    },
+    "erfolge": {
+      "type": "richtext"
+    },
+    "auszeichnungen": {
+      "type": "json"
+    },
+    "kooperationen": {
+      "type": "json"
+    }
+  }
+}
+

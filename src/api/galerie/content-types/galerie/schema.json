@@ -1,0 +1,107 @@
+{
+  "kind": "collectionType",
+  "collectionName": "galerien",
+  "info": {
+    "singularName": "galerie",
+    "pluralName": "galerien",
+    "displayName": "Galerie",
+    "description": "Foto-Galerien der Dorfkapelle Lauerbach"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "titel": {
+      "type": "string",
+      "required": true,
+      "maxLength": 200
+    },
+    "beschreibung": {
+      "type": "text"
+    },
+    "bilder": {
+      "type": "media",
+      "multiple": true,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "datum": {
+      "type": "date",
+      "required": true
+    },
+    "kategorie": {
+      "type": "enumeration",
+      "enum": [
+        "auftritte",
+        "proben",
+        "vereinsleben",
+        "feste",
+        "historisch",
+        "wiesenmarkt",
+        "konzerte",
+        "jubilaeum"
+      ],
+      "required": true
+    },
+    "event": {
+      "type": "string",
+      "maxLength": 200
+    },
+    "ort": {
+      "type": "string",
+      "maxLength": 200
+    },
+    "jahr": {
+      "type": "integer",
+      "required": true,
+      "min": 1965,
+      "max": 2030
+    },
+    "oeffentlich": {
+      "type": "boolean",
+      "default": true,
+      "required": true
+    },
+    "pressefreigabe": {
+      "type": "boolean",
+      "default": false
+    },
+    "titelbild": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "fotograf": {
+      "type": "string",
+      "maxLength": 100
+    },
+    "copyright": {
+      "type": "string",
+      "maxLength": 200
+    },
+    "reihenfolge": {
+      "type": "integer",
+      "min": 1
+    },
+    "featured": {
+      "type": "boolean",
+      "default": false
+    },
+    "anzahl_bilder": {
+      "type": "integer",
+      "min": 0
+    },
+    "termin": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::termin.termin",
+      "inversedBy": "galerien"
+    }
+  }
+}
+

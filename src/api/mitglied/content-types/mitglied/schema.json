@@ -1,0 +1,118 @@
+{
+  "kind": "collectionType",
+  "collectionName": "mitglieder",
+  "info": {
+    "singularName": "mitglied",
+    "pluralName": "mitglieder",
+    "displayName": "Mitglied",
+    "description": "Mitglieder der Dorfkapelle Lauerbach"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "vorname": {
+      "type": "string",
+      "required": true,
+      "maxLength": 50
+    },
+    "nachname": {
+      "type": "string",
+      "required": true,
+      "maxLength": 50
+    },
+    "vollstaendiger_name": {
+      "type": "string",
+      "required": true,
+      "maxLength": 100
+    },
+    "instrument": {
+      "type": "string",
+      "required": true,
+      "maxLength": 100
+    },
+    "nebeninstrumente": {
+      "type": "text"
+    },
+    "mitglied_seit": {
+      "type": "integer",
+      "required": true,
+      "min": 1965,
+      "max": 2030
+    },
+    "funktion": {
+      "type": "string",
+      "maxLength": 100
+    },
+    "instrumentengruppe": {
+      "type": "enumeration",
+      "enum": [
+        "holzbläser",
+        "blechbläser", 
+        "schlagwerk"
+      ],
+      "required": true
+    },
+    "foto": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "aktiv": {
+      "type": "boolean",
+      "default": true,
+      "required": true
+    },
+    "besonderheiten": {
+      "type": "text"
+    },
+    "email": {
+      "type": "email"
+    },
+    "telefon": {
+      "type": "string",
+      "maxLength": 20
+    },
+    "geburtsjahr": {
+      "type": "integer",
+      "min": 1930,
+      "max": 2020
+    },
+    "ist_vorstand": {
+      "type": "boolean",
+      "default": false,
+      "required": true
+    },
+    "vorstand_position": {
+      "type": "enumeration",
+      "enum": [
+        "1_vorsitzender",
+        "2_vorsitzender", 
+        "dirigent",
+        "kassenwart",
+        "schriftfuehrer",
+        "beisitzer"
+      ]
+    },
+    "reihenfolge": {
+      "type": "integer",
+      "min": 1,
+      "max": 100
+    },
+    "bio": {
+      "type": "richtext"
+    },
+    "lieblingsstueck": {
+      "type": "string",
+      "maxLength": 200
+    },
+    "hobbys": {
+      "type": "text"
+    }
+  }
+}
+

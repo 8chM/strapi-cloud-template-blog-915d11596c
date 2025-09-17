@@ -1,0 +1,43 @@
+{
+  "collectionName": "components_shared_kontakt_infos",
+  "info": {
+    "displayName": "Kontakt Info",
+    "description": "Kontaktinformationen-Komponente"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true,
+      "maxLength": 100
+    },
+    "position": {
+      "type": "string",
+      "maxLength": 100
+    },
+    "telefon": {
+      "type": "string",
+      "maxLength": 20
+    },
+    "email": {
+      "type": "email"
+    },
+    "adresse": {
+      "type": "text"
+    },
+    "foto": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "verfuegbarkeit": {
+      "type": "text"
+    },
+    "notiz": {
+      "type": "text"
+    }
+  }
+}
+
