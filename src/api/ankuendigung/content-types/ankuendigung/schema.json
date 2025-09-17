@@ -1,11 +1,11 @@
 {
   "kind": "collectionType",
-  "collectionName": "news",
+  "collectionName": "ankuendigungen",
   "info": {
-    "singularName": "news",
-    "pluralName": "news",
-    "displayName": "News",
-    "description": "News und Ankündigungen der Dorfkapelle Lauerbach"
+    "singularName": "ankuendigung",
+    "pluralName": "ankuendigungen",
+    "displayName": "Ankündigung",
+    "description": "Ankündigungen und News der Dorfkapelle Lauerbach"
   },
   "options": {
     "draftAndPublish": true
