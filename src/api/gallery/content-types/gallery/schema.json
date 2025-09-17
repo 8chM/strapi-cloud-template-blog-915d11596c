@@ -1,0 +1,101 @@
+{
+  "kind": "collectionType",
+  "collectionName": "galleries",
+  "info": {
+    "singularName": "gallery",
+    "pluralName": "galleries",
+    "displayName": "Gallery",
+    "description": "Photo galleries of Dorfkapelle Lauerbach"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true,
+      "maxLength": 200
+    },
+    "description": {
+      "type": "text"
+    },
+    "images": {
+      "type": "media",
+      "multiple": true,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "date": {
+      "type": "date",
+      "required": true
+    },
+    "category": {
+      "type": "enumeration",
+      "enum": [
+        "performances",
+        "rehearsals",
+        "club_life",
+        "festivals",
+        "historical",
+        "wiesenmarkt",
+        "concerts",
+        "anniversary"
+      ],
+      "required": true
+    },
+    "event_name": {
+      "type": "string",
+      "maxLength": 200
+    },
+    "location": {
+      "type": "string",
+      "maxLength": 200
+    },
+    "year": {
+      "type": "integer",
+      "required": true,
+      "min": 1965,
+      "max": 2030
+    },
+    "public": {
+      "type": "boolean",
+      "default": true,
+      "required": true
+    },
+    "press_release": {
+      "type": "boolean",
+      "default": false
+    },
+    "cover_image": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "photographer": {
+      "type": "string",
+      "maxLength": 100
+    },
+    "copyright": {
+      "type": "string",
+      "maxLength": 200
+    },
+    "sort_order": {
+      "type": "integer",
+      "min": 1
+    },
+    "featured": {
+      "type": "boolean",
+      "default": false
+    },
+    "image_count": {
+      "type": "integer",
+      "min": 0
+    }
+  }
+}
+

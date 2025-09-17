@@ -1,0 +1,118 @@
+{
+  "kind": "collectionType",
+  "collectionName": "members",
+  "info": {
+    "singularName": "member",
+    "pluralName": "members",
+    "displayName": "Member",
+    "description": "Band members of Dorfkapelle Lauerbach"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "first_name": {
+      "type": "string",
+      "required": true,
+      "maxLength": 50
+    },
+    "last_name": {
+      "type": "string",
+      "required": true,
+      "maxLength": 50
+    },
+    "full_name": {
+      "type": "string",
+      "required": true,
+      "maxLength": 100
+    },
+    "instrument": {
+      "type": "string",
+      "required": true,
+      "maxLength": 100
+    },
+    "secondary_instruments": {
+      "type": "text"
+    },
+    "member_since": {
+      "type": "integer",
+      "required": true,
+      "min": 1965,
+      "max": 2030
+    },
+    "role": {
+      "type": "string",
+      "maxLength": 100
+    },
+    "instrument_group": {
+      "type": "enumeration",
+      "enum": [
+        "woodwinds",
+        "brass",
+        "percussion"
+      ],
+      "required": true
+    },
+    "photo": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "active": {
+      "type": "boolean",
+      "default": true,
+      "required": true
+    },
+    "notes": {
+      "type": "text"
+    },
+    "email": {
+      "type": "email"
+    },
+    "phone": {
+      "type": "string",
+      "maxLength": 20
+    },
+    "birth_year": {
+      "type": "integer",
+      "min": 1930,
+      "max": 2020
+    },
+    "is_board_member": {
+      "type": "boolean",
+      "default": false,
+      "required": true
+    },
+    "board_position": {
+      "type": "enumeration",
+      "enum": [
+        "first_chairman",
+        "second_chairman",
+        "conductor",
+        "treasurer",
+        "secretary",
+        "board_member"
+      ]
+    },
+    "sort_order": {
+      "type": "integer",
+      "min": 1,
+      "max": 100
+    },
+    "bio": {
+      "type": "richtext"
+    },
+    "favorite_piece": {
+      "type": "string",
+      "maxLength": 200
+    },
+    "hobbies": {
+      "type": "text"
+    }
+  }
+}
+

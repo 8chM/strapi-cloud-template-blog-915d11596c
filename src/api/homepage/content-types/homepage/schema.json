@@ -1,0 +1,116 @@
+{
+  "kind": "singleType",
+  "collectionName": "homepage",
+  "info": {
+    "singularName": "homepage",
+    "pluralName": "homepages",
+    "displayName": "Homepage",
+    "description": "Homepage content and settings"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "hero_title": {
+      "type": "string",
+      "required": true,
+      "default": "Dorfkapelle Lauerbach"
+    },
+    "hero_subtitle": {
+      "type": "string",
+      "default": "Traditional brass music with heart from the Odenwald"
+    },
+    "hero_text": {
+      "type": "text"
+    },
+    "hero_image": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "hero_cta_text": {
+      "type": "string",
+      "maxLength": 50,
+      "default": "Learn more"
+    },
+    "hero_cta_link": {
+      "type": "string",
+      "default": "/about"
+    },
+    "welcome_title": {
+      "type": "string",
+      "default": "Welcome to Dorfkapelle Lauerbach"
+    },
+    "welcome_text": {
+      "type": "richtext"
+    },
+    "stats_since": {
+      "type": "integer",
+      "default": 1965
+    },
+    "stats_members": {
+      "type": "integer",
+      "default": 30
+    },
+    "stats_years": {
+      "type": "integer",
+      "default": 60
+    },
+    "upcoming_events_title": {
+      "type": "string",
+      "default": "Upcoming Events"
+    },
+    "upcoming_events_count": {
+      "type": "integer",
+      "default": 3,
+      "min": 1,
+      "max": 10
+    },
+    "news_title": {
+      "type": "string",
+      "default": "Latest News"
+    },
+    "news_count": {
+      "type": "integer",
+      "default": 3,
+      "min": 1,
+      "max": 10
+    },
+    "members_teaser_title": {
+      "type": "string",
+      "default": "Our Musicians"
+    },
+    "members_teaser_text": {
+      "type": "text"
+    },
+    "members_teaser_image": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "contact_teaser_title": {
+      "type": "string",
+      "default": "Join Us!"
+    },
+    "contact_teaser_text": {
+      "type": "text"
+    },
+    "seo_title": {
+      "type": "string",
+      "maxLength": 60
+    },
+    "seo_description": {
+      "type": "text",
+      "maxLength": 160
+    },
+    "last_updated": {
+      "type": "datetime"
+    }
+  }
+}
+

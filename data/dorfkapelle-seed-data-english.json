@@ -1,0 +1,169 @@
+{
+  "members": [
+    {
+      "first_name": "Alexander",
+      "last_name": "Uhrig",
+      "full_name": "Alexander Uhrig",
+      "instrument": "Trumpet",
+      "member_since": 1985,
+      "role": "First Chairman",
+      "instrument_group": "brass",
+      "active": true,
+      "is_board_member": true,
+      "board_position": "first_chairman",
+      "sort_order": 1,
+      "email": "alexander.uhrig@dorfkapelle-lauerbach.de",
+      "notes": "Founding member, long-time club leadership"
+    },
+    {
+      "first_name": "Joachim",
+      "last_name": "Uhrig",
+      "full_name": "Joachim Uhrig",
+      "instrument": "Trombone",
+      "member_since": 1988,
+      "role": "Second Chairman",
+      "instrument_group": "brass",
+      "active": true,
+      "is_board_member": true,
+      "board_position": "second_chairman",
+      "sort_order": 2,
+      "email": "joachim.uhrig@dorfkapelle-lauerbach.de"
+    },
+    {
+      "first_name": "Norbert",
+      "last_name": "Hebel",
+      "full_name": "Norbert Hebel",
+      "instrument": "Clarinet",
+      "member_since": 1990,
+      "role": "Conductor",
+      "instrument_group": "woodwinds",
+      "active": true,
+      "is_board_member": true,
+      "board_position": "conductor",
+      "sort_order": 3,
+      "email": "norbert.hebel@dorfkapelle-lauerbach.de",
+      "notes": "Musical director for over 30 years"
+    },
+    {
+      "first_name": "Maria",
+      "last_name": "Müller",
+      "full_name": "Maria Müller",
+      "instrument": "Flute",
+      "member_since": 2010,
+      "instrument_group": "woodwinds",
+      "active": true,
+      "is_board_member": false,
+      "sort_order": 10
+    },
+    {
+      "first_name": "Hans",
+      "last_name": "Schmidt",
+      "full_name": "Hans Schmidt",
+      "instrument": "Tuba",
+      "member_since": 1995,
+      "instrument_group": "brass",
+      "active": true,
+      "is_board_member": false,
+      "sort_order": 15
+    }
+  ],
+  "events": [
+    {
+      "title": "Anniversary Concert - 60 Years Dorfkapelle Lauerbach",
+      "date": "2025-10-26T14:00:00.000Z",
+      "location": "Erbach Festival Hall",
+      "address": "Festival Hall Erbach, 64711 Erbach",
+      "description": "Celebrate with us 60 years of traditional brass music with heart from the Odenwald. A special program from six decades of club history.",
+      "short_description": "60 years of brass music - anniversary concert with special program",
+      "category": "anniversary",
+      "public": true,
+      "admission": "Free admission - donations welcome",
+      "important": true,
+      "contact": "Alexander Uhrig",
+      "contact_phone": "06062/1020",
+      "contact_email": "dorfkapelle@web.de"
+    },
+    {
+      "title": "Erbach Wiesenmarkt 2025",
+      "date": "2025-07-20T11:00:00.000Z",
+      "location": "Beer Halls 1+2, Erbach",
+      "description": "Traditional morning pint with Dorfkapelle Lauerbach. Folk brass music in a cozy atmosphere.",
+      "short_description": "Traditional morning pint at the region's largest folk festival",
+      "category": "wiesenmarkt",
+      "public": true,
+      "admission": "Free",
+      "important": true
+    },
+    {
+      "title": "Lauerbach Village Festival",
+      "date": "2025-08-15T14:00:00.000Z",
+      "location": "Lauerbach Village Square",
+      "description": "Cozy village festival with coffee, cake and brass music. An afternoon for the whole family.",
+      "short_description": "Cozy village festival for the whole family",
+      "category": "village_festival",
+      "public": true,
+      "admission": "Free"
+    }
+  ],
+  "announcements": [
+    {
+      "title": "60 Years Dorfkapelle Lauerbach - A Reason to Celebrate!",
+      "content": "2025 is a special year for Dorfkapelle Lauerbach e.V. - we celebrate our 60th anniversary! Since 1965 we have been delighting people from the entire Odenwald region with traditional brass music.",
+      "short_description": "In 2025 we celebrate 60 years of brass music with heart from the Odenwald",
+      "date": "2025-01-15T10:00:00.000Z",
+      "category": "announcement",
+      "important": true,
+      "featured": true,
+      "author_name": "Alexander Uhrig"
+    },
+    {
+      "title": "New Members Welcome",
+      "content": "We are happy about everyone who wants to join us. All brass instruments are welcome - from flute to tuba.",
+      "short_description": "Become part of our music community",
+      "date": "2025-02-01T09:00:00.000Z",
+      "category": "members",
+      "author_name": "Norbert Hebel"
+    }
+  ],
+  "club_info": {
+    "club_name": "Dorfkapelle Lauerbach e.V.",
+    "founding_year": 1965,
+    "motto": "Traditional brass music with heart from the Odenwald",
+    "description": "Since 1965 we have been delighting people from the entire Odenwald region with traditional brass music. With over 30 active musicians of different generations, we maintain the tradition of folk brass music.",
+    "address": "Litzertweg 20",
+    "postal_code": "64711",
+    "city": "Erbach",
+    "district": "Lauerbach",
+    "phone": "06062/1020",
+    "email": "dorfkapelle@web.de",
+    "facebook_url": "https://www.facebook.com/p/Dorfkapelle-Lauerbach-100057425274288/",
+    "youtube_url": "https://www.youtube.com/watch?v=FZQgpDd_DM8",
+    "member_count": 30,
+    "rehearsal_times": "Every Thursday at 7:30 PM in the Lauerbach clubhouse",
+    "rehearsal_location": "Lauerbach Clubhouse",
+    "non_profit": true
+  },
+  "homepage": {
+    "hero_title": "Dorfkapelle Lauerbach",
+    "hero_subtitle": "Traditional brass music with heart from the Odenwald",
+    "hero_text": "Since 1965 we have been delighting people from the entire Odenwald region with traditional brass music.",
+    "hero_cta_text": "Learn more",
+    "hero_cta_link": "/about",
+    "welcome_title": "Welcome to Dorfkapelle Lauerbach",
+    "welcome_text": "With over 30 active musicians of different generations, we maintain the tradition of folk brass music and bring people together. Experience authentic village music at our performances or become part of our music community yourself.",
+    "stats_since": 1965,
+    "stats_members": 30,
+    "stats_years": 60,
+    "upcoming_events_title": "Upcoming Events",
+    "upcoming_events_count": 3,
+    "news_title": "Latest News",
+    "news_count": 3,
+    "members_teaser_title": "Our Musicians",
+    "members_teaser_text": "Get to know our musicians - from young to old, all united by their love of brass music.",
+    "contact_teaser_title": "Join Us!",
+    "contact_teaser_text": "Do you love brass music? We welcome new members of all ages and instruments.",
+    "seo_title": "Dorfkapelle Lauerbach e.V. - Traditional brass music with heart from the Odenwald",
+    "seo_description": "Since 1965 traditional brass music in the Odenwald. 30+ musicians, regular performances, new members welcome. Erbach, Hessen."
+  }
+}
+

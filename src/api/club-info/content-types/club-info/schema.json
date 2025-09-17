@@ -1,0 +1,143 @@
+{
+  "kind": "singleType",
+  "collectionName": "club_info",
+  "info": {
+    "singularName": "club-info",
+    "pluralName": "club-infos",
+    "displayName": "Club Info",
+    "description": "Basic information about Dorfkapelle Lauerbach"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "club_name": {
+      "type": "string",
+      "required": true,
+      "default": "Dorfkapelle Lauerbach e.V."
+    },
+    "founding_year": {
+      "type": "integer",
+      "required": true,
+      "default": 1965
+    },
+    "motto": {
+      "type": "string",
+      "default": "Traditional brass music with heart from the Odenwald"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "address": {
+      "type": "text",
+      "required": true
+    },
+    "postal_code": {
+      "type": "string",
+      "maxLength": 5,
+      "default": "64711"
+    },
+    "city": {
+      "type": "string",
+      "maxLength": 100,
+      "default": "Erbach"
+    },
+    "district": {
+      "type": "string",
+      "maxLength": 100,
+      "default": "Lauerbach"
+    },
+    "phone": {
+      "type": "string",
+      "required": true
+    },
+    "email": {
+      "type": "email",
+      "required": true
+    },
+    "website": {
+      "type": "string"
+    },
+    "facebook_url": {
+      "type": "string"
+    },
+    "youtube_url": {
+      "type": "string"
+    },
+    "instagram_url": {
+      "type": "string"
+    },
+    "club_logo": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "group_photo": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "member_count": {
+      "type": "integer",
+      "default": 30
+    },
+    "rehearsal_times": {
+      "type": "richtext"
+    },
+    "rehearsal_location": {
+      "type": "string",
+      "maxLength": 200
+    },
+    "clubhouse": {
+      "type": "text"
+    },
+    "bank_details": {
+      "type": "richtext"
+    },
+    "registration_number": {
+      "type": "string",
+      "maxLength": 100
+    },
+    "tax_number": {
+      "type": "string",
+      "maxLength": 100
+    },
+    "non_profit": {
+      "type": "boolean",
+      "default": true
+    },
+    "membership_fees": {
+      "type": "richtext"
+    },
+    "admission_fee": {
+      "type": "decimal",
+      "min": 0
+    },
+    "annual_fee_adults": {
+      "type": "decimal",
+      "min": 0
+    },
+    "annual_fee_youth": {
+      "type": "decimal",
+      "min": 0
+    },
+    "history": {
+      "type": "richtext"
+    },
+    "achievements": {
+      "type": "richtext"
+    },
+    "awards": {
+      "type": "json"
+    },
+    "partnerships": {
+      "type": "json"
+    }
+  }
+}
+

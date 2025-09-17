@@ -1,0 +1,158 @@
+{
+  "kind": "collectionType",
+  "collectionName": "events",
+  "info": {
+    "singularName": "event",
+    "pluralName": "events",
+    "displayName": "Event",
+    "description": "Events and performances of Dorfkapelle Lauerbach"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true,
+      "maxLength": 200
+    },
+    "date": {
+      "type": "datetime",
+      "required": true
+    },
+    "time": {
+      "type": "time"
+    },
+    "location": {
+      "type": "string",
+      "required": true,
+      "maxLength": 200
+    },
+    "address": {
+      "type": "text"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "short_description": {
+      "type": "text",
+      "maxLength": 300
+    },
+    "program": {
+      "type": "richtext"
+    },
+    "category": {
+      "type": "enumeration",
+      "enum": [
+        "performance",
+        "concert",
+        "rehearsal",
+        "club_event",
+        "festival",
+        "wiesenmarkt",
+        "village_festival",
+        "anniversary"
+      ],
+      "required": true
+    },
+    "public": {
+      "type": "boolean",
+      "default": true,
+      "required": true
+    },
+    "admission": {
+      "type": "string",
+      "maxLength": 100
+    },
+    "admission_price": {
+      "type": "decimal",
+      "min": 0
+    },
+    "contact": {
+      "type": "string",
+      "maxLength": 200
+    },
+    "contact_phone": {
+      "type": "string",
+      "maxLength": 20
+    },
+    "contact_email": {
+      "type": "email"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "gallery_images": {
+      "type": "media",
+      "multiple": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "directions": {
+      "type": "text"
+    },
+    "special_notes": {
+      "type": "text"
+    },
+    "important": {
+      "type": "boolean",
+      "default": false
+    },
+    "cancelled": {
+      "type": "boolean",
+      "default": false
+    },
+    "sold_out": {
+      "type": "boolean",
+      "default": false
+    },
+    "registration_required": {
+      "type": "boolean",
+      "default": false
+    },
+    "registration_deadline": {
+      "type": "date"
+    },
+    "max_participants": {
+      "type": "integer",
+      "min": 1
+    },
+    "current_registrations": {
+      "type": "integer",
+      "min": 0,
+      "default": 0
+    },
+    "organizer": {
+      "type": "string",
+      "maxLength": 200
+    },
+    "website": {
+      "type": "string"
+    },
+    "facebook_event": {
+      "type": "string"
+    },
+    "sort_order": {
+      "type": "integer",
+      "min": 1
+    },
+    "weather_dependent": {
+      "type": "boolean",
+      "default": false
+    },
+    "backup_date": {
+      "type": "datetime"
+    },
+    "backup_location": {
+      "type": "string",
+      "maxLength": 200
+    }
+  }
+}
+

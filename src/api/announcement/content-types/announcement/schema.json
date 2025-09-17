@@ -1,0 +1,99 @@
+{
+  "kind": "collectionType",
+  "collectionName": "announcements",
+  "info": {
+    "singularName": "announcement",
+    "pluralName": "announcements",
+    "displayName": "Announcement",
+    "description": "News and announcements of Dorfkapelle Lauerbach"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true,
+      "maxLength": 200
+    },
+    "content": {
+      "type": "richtext",
+      "required": true
+    },
+    "short_description": {
+      "type": "text",
+      "maxLength": 300
+    },
+    "date": {
+      "type": "datetime",
+      "required": true
+    },
+    "author_name": {
+      "type": "string",
+      "maxLength": 100
+    },
+    "category": {
+      "type": "enumeration",
+      "enum": [
+        "announcement",
+        "report",
+        "success",
+        "members",
+        "events",
+        "club_life",
+        "press"
+      ],
+      "required": true
+    },
+    "important": {
+      "type": "boolean",
+      "default": false
+    },
+    "featured": {
+      "type": "boolean",
+      "default": false
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "gallery_images": {
+      "type": "media",
+      "multiple": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "title"
+    },
+    "tags": {
+      "type": "json"
+    },
+    "reading_time": {
+      "type": "integer",
+      "min": 1
+    },
+    "views": {
+      "type": "integer",
+      "min": 0,
+      "default": 0
+    },
+    "comments_enabled": {
+      "type": "boolean",
+      "default": true
+    },
+    "external_links": {
+      "type": "json"
+    },
+    "social_media": {
+      "type": "json"
+    }
+  }
+}
+
