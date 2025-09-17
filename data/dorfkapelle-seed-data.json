@@ -1,0 +1,169 @@
+{
+  "mitglieder": [
+    {
+      "vorname": "Alexander",
+      "nachname": "Uhrig", 
+      "vollstaendiger_name": "Alexander Uhrig",
+      "instrument": "Trompete",
+      "mitglied_seit": 1985,
+      "funktion": "1. Vorsitzender",
+      "instrumentengruppe": "blechbläser",
+      "aktiv": true,
+      "ist_vorstand": true,
+      "vorstand_position": "1_vorsitzender",
+      "reihenfolge": 1,
+      "email": "alexander.uhrig@dorfkapelle-lauerbach.de",
+      "besonderheiten": "Gründungsmitglied, langjährige Vereinsführung"
+    },
+    {
+      "vorname": "Joachim",
+      "nachname": "Uhrig",
+      "vollstaendiger_name": "Joachim Uhrig", 
+      "instrument": "Posaune",
+      "mitglied_seit": 1988,
+      "funktion": "2. Vorsitzender",
+      "instrumentengruppe": "blechbläser",
+      "aktiv": true,
+      "ist_vorstand": true,
+      "vorstand_position": "2_vorsitzender",
+      "reihenfolge": 2,
+      "email": "joachim.uhrig@dorfkapelle-lauerbach.de"
+    },
+    {
+      "vorname": "Norbert",
+      "nachname": "Hebel",
+      "vollstaendiger_name": "Norbert Hebel",
+      "instrument": "Klarinette", 
+      "mitglied_seit": 1990,
+      "funktion": "Dirigent",
+      "instrumentengruppe": "holzbläser",
+      "aktiv": true,
+      "ist_vorstand": true,
+      "vorstand_position": "dirigent",
+      "reihenfolge": 3,
+      "email": "norbert.hebel@dorfkapelle-lauerbach.de",
+      "besonderheiten": "Musikalische Leitung seit über 30 Jahren"
+    },
+    {
+      "vorname": "Maria",
+      "nachname": "Müller",
+      "vollstaendiger_name": "Maria Müller",
+      "instrument": "Querflöte",
+      "mitglied_seit": 2010,
+      "instrumentengruppe": "holzbläser",
+      "aktiv": true,
+      "ist_vorstand": false,
+      "reihenfolge": 10
+    },
+    {
+      "vorname": "Hans",
+      "nachname": "Schmidt",
+      "vollstaendiger_name": "Hans Schmidt",
+      "instrument": "Tuba",
+      "mitglied_seit": 1995,
+      "instrumentengruppe": "blechbläser", 
+      "aktiv": true,
+      "ist_vorstand": false,
+      "reihenfolge": 15
+    }
+  ],
+  "termine": [
+    {
+      "titel": "Jubiläumskonzert - 60 Jahre Dorfkapelle Lauerbach",
+      "datum": "2025-10-26T14:00:00.000Z",
+      "ort": "Erbach Festhalle",
+      "adresse": "Festhalle Erbach, 64711 Erbach",
+      "beschreibung": "Feiern Sie mit uns 60 Jahre Blasmusik mit Herz aus dem Odenwald. Ein besonderes Programm aus sechs Jahrzehnten Vereinsgeschichte.",
+      "kurzbeschreibung": "60 Jahre Blasmusik - Jubiläumskonzert mit besonderem Programm",
+      "kategorie": "jubilaeum",
+      "oeffentlich": true,
+      "eintritt": "Eintritt frei - Spenden willkommen",
+      "wichtig": true,
+      "kontakt": "Alexander Uhrig",
+      "kontakt_telefon": "06062/1020",
+      "kontakt_email": "dorfkapelle@web.de"
+    },
+    {
+      "titel": "Erbacher Wiesenmarkt 2025",
+      "datum": "2025-07-20T11:00:00.000Z",
+      "ort": "Bierhallen 1+2, Erbach",
+      "beschreibung": "Traditioneller Frühschoppen mit der Dorfkapelle Lauerbach. Volkstümliche Blasmusik in gemütlicher Atmosphäre.",
+      "kurzbeschreibung": "Traditioneller Frühschoppen beim größten Volksfest der Region",
+      "kategorie": "wiesenmarkt",
+      "oeffentlich": true,
+      "eintritt": "Frei",
+      "wichtig": true
+    },
+    {
+      "titel": "Dorfplatzfest Lauerbach",
+      "datum": "2025-08-15T14:00:00.000Z", 
+      "ort": "Dorfplatz Lauerbach",
+      "beschreibung": "Gemütliches Dorffest mit Kaffee, Kuchen und Blasmusik. Ein Nachmittag für die ganze Familie.",
+      "kurzbeschreibung": "Gemütliches Dorffest für die ganze Familie",
+      "kategorie": "dorfplatzfest",
+      "oeffentlich": true,
+      "eintritt": "Frei"
+    }
+  ],
+  "news": [
+    {
+      "titel": "60 Jahre Dorfkapelle Lauerbach - Ein Grund zu feiern!",
+      "inhalt": "2025 ist ein besonderes Jahr für die Dorfkapelle Lauerbach e.V. - wir feiern unser 60-jähriges Bestehen! Seit 1965 begeistern wir mit traditioneller Blasmusik Menschen aus dem gesamten Odenwälder Raum.",
+      "kurzbeschreibung": "2025 feiern wir 60 Jahre Blasmusik mit Herz aus dem Odenwald",
+      "datum": "2025-01-15T10:00:00.000Z",
+      "kategorie": "ankuendigung",
+      "wichtig": true,
+      "featured": true,
+      "autor_name": "Alexander Uhrig"
+    },
+    {
+      "titel": "Neue Mitglieder herzlich willkommen",
+      "inhalt": "Wir freuen uns über jeden, der Lust hat, bei uns mitzumachen. Alle Blasinstrumente sind willkommen - von der Querflöte bis zur Tuba.",
+      "kurzbeschreibung": "Werden Sie Teil unserer Musikgemeinschaft",
+      "datum": "2025-02-01T09:00:00.000Z",
+      "kategorie": "mitglieder",
+      "autor_name": "Norbert Hebel"
+    }
+  ],
+  "vereinsinfo": {
+    "vereinsname": "Dorfkapelle Lauerbach e.V.",
+    "gruendungsjahr": 1965,
+    "motto": "Blasmusik mit Herz aus dem Odenwald",
+    "beschreibung": "Seit 1965 begeistern wir mit traditioneller Blasmusik Menschen aus dem gesamten Odenwälder Raum. Mit über 30 aktiven Musikern verschiedener Generationen pflegen wir die Tradition der volkstümlichen Blasmusik.",
+    "adresse": "Litzertweg 20",
+    "plz": "64711", 
+    "ort": "Erbach",
+    "stadtteil": "Lauerbach",
+    "telefon": "06062/1020",
+    "email": "dorfkapelle@web.de",
+    "facebook_url": "https://www.facebook.com/p/Dorfkapelle-Lauerbach-100057425274288/",
+    "youtube_url": "https://www.youtube.com/watch?v=FZQgpDd_DM8",
+    "anzahl_mitglieder": 30,
+    "probenzeiten": "Jeden Donnerstag um 19:30 Uhr im Vereinsheim Lauerbach",
+    "probenort": "Vereinsheim Lauerbach",
+    "gemeinnuetzig": true
+  },
+  "startseite": {
+    "hero_titel": "Dorfkapelle Lauerbach",
+    "hero_untertitel": "Blasmusik mit Herz aus dem Odenwald",
+    "hero_text": "Seit 1965 begeistern wir mit traditioneller Blasmusik Menschen aus dem gesamten Odenwälder Raum.",
+    "hero_cta_text": "Mehr erfahren",
+    "hero_cta_link": "/ueber-uns",
+    "willkommen_titel": "Willkommen bei der Dorfkapelle Lauerbach",
+    "willkommen_text": "Mit über 30 aktiven Musikern verschiedener Generationen pflegen wir die Tradition der volkstümlichen Blasmusik und bringen Menschen zusammen. Erleben Sie authentische Dorfmusik bei unseren Auftritten oder werden Sie selbst Teil unserer Musikgemeinschaft.",
+    "statistik_seit": 1965,
+    "statistik_mitglieder": 30,
+    "statistik_jahre": 60,
+    "naechste_termine_titel": "Nächste Termine",
+    "naechste_termine_anzahl": 3,
+    "news_titel": "Aktuelles",
+    "news_anzahl": 3,
+    "mitglieder_teaser_titel": "Unsere Musiker",
+    "mitglieder_teaser_text": "Lernen Sie unsere Musikerinnen und Musiker kennen - von Jung bis Alt, alle vereint durch die Liebe zur Blasmusik.",
+    "kontakt_teaser_titel": "Machen Sie mit!",
+    "kontakt_teaser_text": "Haben Sie Lust auf Blasmusik? Wir freuen uns über neue Mitglieder aller Altersgruppen und Instrumente.",
+    "seo_titel": "Dorfkapelle Lauerbach e.V. - Blasmusik mit Herz aus dem Odenwald",
+    "seo_beschreibung": "Seit 1965 traditionelle Blasmusik im Odenwald. 30+ Musiker, regelmäßige Auftritte, neue Mitglieder willkommen. Erbach, Hessen."
+  }
+}
+
